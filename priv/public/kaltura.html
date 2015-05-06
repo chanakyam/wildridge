@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html ng-app="wildridgeApp">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Wildridge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content=""/>
+		<meta name="keywords" content="wildridge, public, video clips, post, videoblog, community site, videos, clips, online news, america news, news america"/>
+		<link rel="shortcut icon" href="/images/favicon.ico"/>
+		<link rel="stylesheet" href="/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="//vjs.zencdn.net/4.1/video-js.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+		<!-- included jwplayer lib files -->
+		<!--<script src="/js/jwplayer.js"></script>-->
+		<script type="text/javascript" src="http://jwpsrv.com/library/5V3tOP97EeK2SxIxOUCPzg.js"></script>
+		<script type="text/javascript">jwplayer.key="L0SAYMTJJs/IIkeci5tG4vgIMGHAc6YFBtmJaA==";</script>
+		<script src="/js/jwplayer.html5.js"></script>
+
+		<!--<script src="/players/flowplayer/flowplayer-3.2.12.min.js"></script> -->
+	</head>
+	<body ng-controller="WildridgeHome">
+		<div class="container">
+			<header>
+				<span class="logo"><img src="/images/logo.png"/></span>
+				<div class="right"> <script  src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=552062&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=178301"></script></div>
+			</header>
+			<!--Header End-->
+
+			<div class="navgation">
+				<nav>
+					<a href="/" class="active"><span>  Now!</span></a>
+					<a href="/p/World?page=1" ><span>World News</span></a>
+					<a href="/p/US?page=1"><span>US</span></a>
+					<a href="/p/Politics?page=1"><span>Politics</span></a>
+					<a href="/p/Entertainment?page=1"><span>Entertainment</span></a>
+					<a href="/p/Markets?page=1"><span>Markets</span></a>
+					<a href="/contactus"><span>Contact Us</span></a>
+					<a href="/p/Money?page=1"><span>Money</span></a>
+				</nav>
+				<div class="navright">
+					<a href="/"><img src="/images/home.png"/></a>
+					<a href="mailto:admin@wildridge.net"><img src="/images/email.png"/></a>
+				</div>
+			</div>
+			<!--Navgation End-->
+
+		
+			<!--banner End-->
+			<style type="text/css">
+.videoHolder, .videoHolder video, .videoHolder,iframe{height: 400px!important;}
+			</style>
+
+			<article>
+				<aside class="width67">
+					<div class="slideshow" style="height:400px;">
+						<style type="text/css">
+							#myElement_wrapper{ float: left;}
+						</style>
+						
+								<!-- <div id="videoplayer" class="hiro"></div> -->
+								<!-- <video id="bannerVideo" class="video-js vjs-default-skin" controls preload="auto" width="99%" height="235px" poster="" data-setup="{}" ng-src="{{ homeVideoEmbedPath }}" type="video/mp4">
+									<source type="video/mp4" />
+								</video> -->
+								<!-- <video-js></video-js> -->
+								<div id="myElement">Loading the player...</div>					
+						<span class="clearboth"></span>
+						
+					</div>
+					<!--Slideshow VIDEOS End-->
+					<span class="clearboth"></span>
+
+					
+					
+
+					<!--Top News End-->
+				</aside>
+
+				
+			</article>
+			<!--Article End-->
+			<br /><br /><br /><br /><br /><br /><br /><br />
+
+			<summary>
+				<span class="left">
+					Copyright &copy;  2014  Wildridge. All Rights Reserved | <a href=/termsandconditions>Terms & Conditions</a>
+				</span>
+				<span class="right">
+					<a href="https://twitter.com/wildridgedotnet"><img src="/images/twitter.png"/></a>
+					<a href="https://www.facebook.com/pages/Wildridgenet/657517920939455"><img src="/images/facebook.png"/></a>
+					<!-- <a href="#"><img src="/images/google.png"/></a>
+					<a href="#"><img src="/images/linkdedin.png"/></a> -->
+				</span>
+			</summary>
+			<!--Footer End-->
+		</div>
+		 
+		    <script src="//cdnapisec.kaltura.com/p/243342/sp/24334200/embedIframeJs/uiconf_id/12905712/partner_id/243342">
+    </script>
+    <div id="myElement" style="width:600px;height:364px;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject" >
+    <!-- Search engine metadata, based on schema.org/VideoObject -->
+    <span itemprop="description" content="test folgers coffe"></span>
+    <span itemprop="name" content="FolgersCoffee_mpeg"></span>
+    <span itemprop="duration" content="60"></span>
+    <span itemprop="thumbnailUrl" content="http://cdnsecakmi.kaltura.com/s/p/243342/sp/24334200/serveFlavor/entryId/0_uka1msg4/v/1/flavorId/1_vqhfu6uy/name/a.mp4?aeauth=1420465666_1acce315fb505422ae9b147513ed814c"></span>
+    <span itemprop="width" content="900"></span>
+    <span itemprop="height" content="630"></span>
+    </div>
+    <script>
+    kWidget.embed({
+    targetId: "myElement",
+    wid: "_243342",
+    uiconf_id: "12905712",
+    entry_id: "0_uka1msg4",
+    flashvars: {
+    "vast": {
+    "plugin" : true,
+    "position" : "before",
+    "prerollUrl" : "http://vast.optimatic.com/vast/getVast.aspx?id=s93akgl0y&zone=vpaidtag&pageURL=[INSERT_PAGE_URL]&pageTitle=[INSERT_PAGE_TITLE]&cb=[CACHE_BUSTER]",
+    "numPreroll" : "1",
+    "prerollStartWith" : "1",
+    "prerollInterval" : "1",
+    "preSequence" : "1",
+    "postSequence" : "1",
+    "timeout" : "4",
+    "relativeTo" : "PlayerHolder"
+    },
+    "noticeMessage": {
+    "plugin" : true,
+    "position" : "before",
+    "text" : "video will start in {sequenceProxy.timeRemaining}"
+    },
+    "adsOnReplay" : true,
+    "debugMode" : true
+    }
+    })
+    </script>
+	</body>
+</html>

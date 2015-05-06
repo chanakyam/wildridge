@@ -1,0 +1,12 @@
+{application, wildridge,
+ [
+  {description, "News Website"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { wildridge_app, []}},
+  {env, []}
+ ]}.
