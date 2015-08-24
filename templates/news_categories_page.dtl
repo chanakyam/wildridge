@@ -139,7 +139,7 @@
               <div class="videwrow popular-video">
                 <div class="thumb">
                   <a href="/v/{{lvid.id}}">
-                    <img class="resizeme" width="100%" src="http://img1.contentapi.ws/{{lvid.thumb_image}}" alt="{{lvid.title}}"/>
+                    <img class="resizeme" width="100%" src="http://newscdn.lycos.com/world_news/{{lvid.thumb_image}}" alt="{{lvid.title}}"/>
                     <div class="big-video-overlay">
                       <span class="uploadedDate">{{lvid.uploaded_date}}</span>
                       <span class="duration">{{lvid.duration}}</span>
